@@ -33,7 +33,7 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
     setMetaTag('meta[name="twitter:description"]', description);
 
     const origin =
-      typeof window !== 'undefined' ? window.location.origin : 'https://qcminhtien.ai.studio';
+      typeof window !== 'undefined' ? window.location.origin : 'https://inminhtien.store';
     const fullUrl = `${origin}${canonicalPath === '/' ? '' : canonicalPath}`;
 
     setMetaTag('meta[property="og:url"]', fullUrl);
