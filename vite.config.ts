@@ -98,6 +98,7 @@ function originalBannerPlugin(): Plugin {
 
 export default defineConfig(() => {
   return {
+    base: './',
     plugins: [react(), tailwindcss(), originalBannerPlugin()],
     resolve: {
       alias: {
